@@ -19,3 +19,9 @@ while True:
                     print("Wake Up!")
                     playsound('audio.mp3')
                     break
+                    
+""" For this task, I will be using the DateTime module in Python to create an alarm clock and the sound library in Python to play the alarm sound.
+The DateTime module comes preinstalled in the Python programming language so you can easily import it in your program. 
+The playsound library can be easily installed by using a pip command; pip install playsound.The user input should be in a format of hours: minutes: and then seconds.
+You will start listening to the song as you will reach the time that has been set. 
+To test your code set the time 2 or 3 minutes later from the time you are giving the user input. """
